@@ -1,6 +1,6 @@
-# docker-supervisord
+# docker-base
 
-A base image for Docker containers that uses supervisord to manage services.
+A base image for Docker containers that uses `supervisord` to manage services.
 
 ## Usage
 

@@ -14,7 +14,7 @@ FROM odarriba/supervisord:latest
 
 ## System updates
 
-The image's operating systema (Ubuntu 14.04) is up to date until the day of the last image build.
+The image's operating system (Ubuntu 14.04) is **up to date until the day of the last image build.**
 
 ## Contributors
 

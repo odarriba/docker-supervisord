@@ -9,7 +9,7 @@ This image does not contain any service because it is thought to be used as base
 To use it in your `Dockerfile` just use:
 
 ```
-FROM odarriba/supervisord:latest
+FROM odarriba/base:latest
 ```
 
 ## System updates

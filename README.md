@@ -9,7 +9,7 @@ This image does not contain any service because it is thought to be used as base
 To use it in your `Dockerfile` just use:
 
 ```
-FROM odarriba/base:latest
+FROM odarriba/supervisord:latest
 ```
 
 Then you can add new services managed by `supervisord` by creating a file in `/etc/supervisor/conf.d/your_program_name.conf` with something like this:

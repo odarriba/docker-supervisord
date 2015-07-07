@@ -17,6 +17,8 @@ Then you can add new services managed by `supervisord` by creating a file in `/e
 ```
 [program:your_program_name]
 command=/path/to/your/program
+user=user_to_run_program
+directory=path/to/run/the/program/from
 autostart=true
 autorestart=true
 stderr_logfile=/path/to/error.log
